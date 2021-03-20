@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="css/file.css" />
+<meta charset="UTF-8">
+<title>小王的天气预报</title>
+
+<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+
+<body>
+	<div class="head">
+		<div class="h1">小王的天气预报</div>
+
+		<div class="city">
+			<span class="iconfont icon-dizhi"></span>
+			<p id="city"></p>
+		</div>
+	</div>
+	<div id="datetime" class="datetime"></div>
+	<div class="content w">
+		<div class="content1">
+			<div class="left">
+				<p class="temperature" id="temperature"></p>
+				<p class="wea" id="wea"></p>
+			</div>
+			<div class="content2">
+				<div class="wind">
+					<span class="iconfont icon-feng"></span>
+					<span id="wind"></span>
+				</div>
+				<div class="wet">
+					<span class="iconfont icon-shidu"></span>
+					<span id="wet"></span>
+				</div>
+				<div class="qiya">
+					<span class="iconfont icon-qiya"></span>
+					<span id="qiya"></span>
+				</div>
+			</div>
+		</div>
+		<div class="right">
+			<img id="image">
+		</div>
+	</div>
+
+	<div class="life w">
+		<div class="air">
+			<div class="this">
+				<div class="hidden">
+					<span class="iconfont icon-app_icons--"></span>
+					空气质量
+				</div>
+				<div class="mask" id="air_level"></div>
+			</div>
+		</div>
+		<div class="air_level">
+			<div class="this">
+				<div class="hidden">
+					<span class="iconfont icon-qingtian"></span>
+					最高温度
+				</div>
+				<div class="mask" id="htem"></div>
+			</div>
+		</div>
+		<div class="air_tips">
+			<div class="this">
+				<div class="hidden">
+					<span class="iconfont icon-xue"></span>
+					最低温度
+				</div>
+				<div class="mask" id="ltem"></div>
+			</div>
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript" src="jq/jquery-3.5.1.js"></script>
+<script type="text/javascript" src="js/weather.js"></script>
+
+
+
+
+</html>
